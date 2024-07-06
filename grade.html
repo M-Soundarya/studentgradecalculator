@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>ABC School</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section class="header">
+        <div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="grade.html">Result</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="Gradecal">
+    <div class="containerr">
+        <h3>DEMO TEXT</h3>
+    </div>
+    <div class="container">
+        <div class="left-box">
+            <h2>12th Result</h2>
+            <div class="p-g-t">
+                <h2>Percentage-<span class="per"></span></h2>
+                <h2>Grade-<span class="gra"></span></h2>
+                <h2>Total-<span class="to"></span></h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="T" placeholder="Tamil"/>
+                <input type="number" id="E" placeholder="English"/>
+                <input type="number" id="A" placeholder="Accountancy"/>
+                <input type="number" id="Ec" placeholder="Economics"/>
+                <input type="number" id="C" placeholder="Commerce"/>
+                <input type="number" id="CO" placeholder="Computer Application"/>
+               <button id="resultButton" type="button" class="btn" onclick="show_result()">Show Results</button>
+
+            </div>
+        </div>
+        <div class="result">
+          <h2></h2>
+        </div>
+    </div>
+    </section> 
+
+<script src="grade.js"></script>
+</body>
+</html>
